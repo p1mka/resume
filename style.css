@@ -11,6 +11,10 @@
     .form-text{
         display: block;
     }
+    
+    .pic{
+        display: inline-block;
+    }
 }
 
 body{

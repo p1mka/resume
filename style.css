@@ -1,0 +1,175 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+@media (max-width: 650px) {
+    .header-group{
+        display: block;
+        text-align: center;
+    }
+    .form-text{
+        display: block;
+    }
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:20px;
+}
+
+h2{
+    font-size:.9em;
+}
+
+a{
+    color: black;
+    text-decoration: none ;
+    padding:10px 10px;
+}
+
+a:hover{
+    color: darkblue;
+    transition: .3s;
+}
+
+a:visited{
+    color:darkmagenta;
+}
+
+hr{
+    color:gray;
+    margin-top: 5px;
+    margin-bottom:5px;
+}
+
+.pic{
+    max-width: 400px;
+    /* width: 40%; */
+    border-radius: 10px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.container{
+    margin:10px 20px;
+}
+
+.card{
+    text-align:center;
+    background: #f7f7f7;
+    border-radius:10px;
+    padding: 10px 10px;
+    margin-top: 10px;
+}
+
+.card p{
+    background:none;
+}
+
+.about p{
+    text-align: center;
+    padding:10px;
+    font-size: 80%;
+    background: #f8ddbb;
+    border-radius: 10px;
+    
+}
+
+
+
+.hobby li{
+    display: inline;
+    /* text-decoration: none; */
+    border-bottom: 1px solid black;
+}
+
+.work{
+    width: 100%;
+    background:rgb(222, 251, 222);
+    border-radius: 10px;
+    padding: 10px 0;
+}
+
+.work td{
+    text-align: center;
+    
+}
+
+.work td:hover{
+    background:#f8ddbb ;
+    border-radius: 10px;
+}
+
+.work tr:nth-child(even){
+    background:#f7f7f7;
+}
+
+.work thead{
+    text-decoration: underline;
+    
+}
+
+.btn{
+    border: none;
+    border-radius: 5px;
+    background: rgb(222, 251, 222) ;
+    padding: 5px 5px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    font-family: inherit;
+    text-decoration: underline;
+    /* font-size: .7em; */
+    transition: 1s;
+}
+
+.btn:hover{
+    background: #000;
+    transition: 1s;
+    color:white;
+}
+
+.orange{
+    background: #f8ddbb;
+}
+
+.form label{
+    font-size: 80%;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    margin-top:5px;
+    font-family: inherit;
+}
+
+.form input{
+    /* display: block; */
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    margin-top:5px;
+    font-family: inherit;
+    padding: 20px;
+}
+
+.form textarea{
+    /* display: block; */
+    margin-top:5px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-family: inherit;
+}
+
+.form ::placeholder{
+    color:gray;
+}
+
+.header-group{
+    display:inline-block;
+    margin-left:20px;
+    margin-bottom: 0;
+}
+
+.form-text{
+    display: inline-block;
+}
+
